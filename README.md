@@ -16,6 +16,8 @@ interfaces: contratos para cálculo de frete
 services: regras de negócio
 util: funções auxiliares
 main.py: execução da aplicação
+
+
 fast_delivery/
 │
 ├── main.py
@@ -40,30 +42,42 @@ fast_delivery/
 │ ├── menu.py
 │ └── formatador.py
 
+
+
 Conceitos Aplicados
 Herança
 Encapsulamento
 Interface
 Polimorfismo
 Separação de responsabilidades
+
+
 Regras de Frete
 Entrega Comum: distância × 1,5
 Entrega Expressa: distância × 3
 Entrega Premium: distância × 5 + 20
+
+
 Status dos Pedidos
 Em preparação
 Saiu para entrega
 Entregue
 Cancelado
+
+
 Extensões utilizadas
 Python 3
 Programação Orientada a Objetos (POO)
 Indentador
 Material Icon Themer
 
+
+
 Meu método de execução:
 Executei o projeto pelo terminal:
 python -m main.main
+
+
 Autora
 Jemina Quetsia Feitosa Teixeira
 Acadêmica em Bacharelado em Ciências da Computação
